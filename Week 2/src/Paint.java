@@ -1,7 +1,8 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 
 public class Paint {
-
     String name;
     int litre;
     double price;
@@ -33,6 +34,9 @@ public class Paint {
 
     public static void main(String[] args){
         ArrayList<Paint> paints = new ArrayList<>();
+        HashMap<String, Double> wasteValues = new HashMap<>();
+        int total;
+        double waste;
         Paint cheap = new Paint("CheapoMax", 21, 19.99, 10);
         paints.add(cheap);
         Paint that = new Paint("ThatOneWithTheDog", 40, 34.38, 12);
@@ -41,23 +45,48 @@ public class Paint {
         paints.add(avg);
         Paint dul = new Paint("DuluxourousPaints", 10, 25.00, 10);
         paints.add(dul);
-        int roomSize = 50;
-        Paint best = cheap;
+        int roomSize = 240;
+        String leastWaste;
         for (Paint i: paints){
-            if (paintLeft(roomSize, i) < paintLeft(roomSize, best)){  //loop through arraylist of paints and check which one has the most paint leftover after use.
-                best = i;
-            }
+            waste = paintLeft(roomSize, i);
+            wasteValues.put(i.getName(), waste);
         }
-        System.out.println(best.getName());
+        Double min = Collections.min(wasteValues.values());
+        System.out.println("The paint that wastes the least " + Collections.min(wasteValues.values()));
+
+        for (Paint i: paints){
+            total = noOfCans(roomSize, i);
+            //      Prices.put(i.getName(), (i.getPrice())*total);
+        }
+
+        // System.out.println("The cheapest for the current roomsize is " + Collections.min(Prices.keySet()));
+
+
+
     }
 
-    public static float paintLeft(int size, Paint paint){
-        float paintUsed = size/ paint.getArea(); //size of room/ m^2 per litre
-        return paint.getLitre() - paintUsed; // total paint - paintused
+    public static int paintLeft(int size, Paint paint){
+        int remainder;
+        if (size < paint.getLitre() * paint.getArea()){
+            return ( (paint.getLitre() * paint.getArea()) - size)/ paint.getArea();
+        }
+        else{
+            remainder = size % (paint.getLitre() * paint.getArea());
+            return ( (paint.getLitre() * paint.getArea()) - remainder)/ paint.getArea();
+        }
+
     }
 
+    public static int noOfCans( int roomSize, Paint paint){
+        int total_litres = roomSize / paint.getArea();
+        if ((paint.getLitre() - total_litres) > 0 ){
+            return 1;
+        }else{
+            return 1 + Math.round((total_litres - paint.getLitre())/paint.getLitre());
+        }
 
+    }
 
-
+    //public static int remainingPaint()
 
 }
