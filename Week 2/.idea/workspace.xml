@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Taxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week 2/Iteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/Iteration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week 2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/Person.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Iteration">
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
+      <module name="Week 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Garage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Garage" />
       <module name="Week 2" />
@@ -74,20 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Transfer" />
-      <module name="Week 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Iteration" />
         <item itemvalue="Application.Garage" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.Paint" />
-        <item itemvalue="Application.Transfer" />
       </list>
     </recent_temporary>
   </component>
