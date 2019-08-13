@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/BlackJack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/BlackJack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week 2/Paint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/Paint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/Results.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paint.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,16 +47,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Paint">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+  <component name="RunManager" selected="Application.Iteration">
+    <configuration name="Garage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Garage" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlackJack" />
+    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iteration" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Results" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Results" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Person" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Iteration" />
+        <item itemvalue="Application.Garage" />
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.Paint" />
         <item itemvalue="Application.Transfer" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Results" />
-        <item itemvalue="Application.BlackJack" />
       </list>
     </recent_temporary>
   </component>
@@ -119,5 +116,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Garage.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Paint {
     String name;
@@ -47,7 +48,10 @@ public class Paint {
         paints.add(avg);
         Paint dul = new Paint("DuluxourousPaints", 10, 25.00, 22);
         paints.add(dul);
-        int roomSize = 240;                                                                            // Room size to paint
+        System.out.println("Please enter the size of the room you'd like to paint:");
+        Scanner read = new Scanner(System.in);
+        String size = read.next();
+        int roomSize = Integer.parseInt(size);                                                                            // Room size to paint
         double currentWaste;
         for (Paint i: paints){
             currentWaste = paintLeft(roomSize, i);                                                     // Method call that returns how much paint is left after painting
