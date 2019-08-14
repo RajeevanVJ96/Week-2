@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/Iteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/Iteration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/Person.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.Goldy">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="Week 2" />
@@ -61,15 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Iteration" />
+    <configuration name="Goldy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Goldy" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Paint" />
+    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iteration" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,13 +80,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Goldy" />
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.Garage" />
+      <item itemvalue="Application.Iteration" />
+      <item itemvalue="Application.Person" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Goldy" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Iteration" />
         <item itemvalue="Application.Garage" />
         <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Paint" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +115,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
