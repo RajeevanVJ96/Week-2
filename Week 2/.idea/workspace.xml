@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="" />
+    <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoldyChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoldyChallenge.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Goldy">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="Week 2" />
@@ -87,8 +91,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Goldy" />
         <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Goldy" />
         <item itemvalue="Application.Iteration" />
         <item itemvalue="Application.Garage" />
         <item itemvalue="Application.Person" />

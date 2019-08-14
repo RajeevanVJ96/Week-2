@@ -22,7 +22,7 @@ public class GoldyChallenge {
                 seats.add(currentSeat);
             }
         }
-        int currentjk
+//        int currentjk
 
 
 
