@@ -10,6 +10,11 @@ public class App {
         int line = 1;
         System.out.println(handCount(6));
         Bird bird = new Bird();
+        Box box = new Box();
+        Box box1 = new Box();
+        Box.colour = "Green";
+        box.item = "Cat";
+        System.out.println(box1.item);
     }
 
     public static int handCount(int numOfPeople){
