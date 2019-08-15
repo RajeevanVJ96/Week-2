@@ -9,6 +9,7 @@ public class App {
         System.out.println(" called Hello " + name);
         int line = 1;
         System.out.println(handCount(6));
+        Bird bird = new Bird();
     }
 
     public static int handCount(int numOfPeople){

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/GoldyChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/GoldyChallenge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/Seat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoldyChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoldyChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +30,10 @@
   <component name="ProjectId" id="1PJu8WNk1HHDWAwnRS5S9k0kBeI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -49,16 +51,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GoldyChallenge">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factorial" />
+  <component name="RunManager" selected="Application.BinaryConversion">
+    <configuration name="BinaryConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryConversion" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Garage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Garage" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,17 +90,17 @@
     <list>
       <item itemvalue="Application.Goldy" />
       <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.Garage" />
       <item itemvalue="Application.Iteration" />
       <item itemvalue="Application.GoldyChallenge" />
+      <item itemvalue="Application.BinaryConversion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryConversion" />
         <item itemvalue="Application.GoldyChallenge" />
         <item itemvalue="Application.Goldy" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Iteration" />
-        <item itemvalue="Application.Garage" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +147,11 @@
           <url>file://$PROJECT_DIR$/src/GoldyChallenge.java</url>
           <line>53</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryConversion.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
