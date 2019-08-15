@@ -10,7 +10,7 @@ public class Seat {
         this.light = light;
     }
 
-    public int getPorridge() {
+    public int getPorridgeTemp() {
         return porridgeTemp;
     }
 
