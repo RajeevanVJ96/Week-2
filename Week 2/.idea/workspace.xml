@@ -4,6 +4,7 @@
     <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week 2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week 2/META-INF/Week 2.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +36,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Taxes">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Week 2" />
@@ -61,13 +63,6 @@
     </configuration>
     <configuration name="BinaryConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryConversion" />
-      <module name="Week 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,20 +82,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Taxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Taxes" />
+      <module name="Week 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Goldy" />
-      <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.GoldyChallenge" />
       <item itemvalue="Application.BinaryConversion" />
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.Taxes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Taxes" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.BinaryConversion" />
         <item itemvalue="Application.GoldyChallenge" />
         <item itemvalue="Application.Goldy" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>

@@ -15,6 +15,11 @@ public class App {
         Box.colour = "Green";
         box.item = "Cat";
         System.out.println(box1.item);
+        PersonStaticExample p1 = new PersonStaticExample();
+        PersonStaticExample p2 = new PersonStaticExample();
+        for (PersonStaticExample i: PersonStaticExample.people){
+            System.out.println(i);
+        }
     }
 
     public static int handCount(int numOfPeople){
