@@ -10,4 +10,8 @@ public class Car extends Vehicle {
 
 
     }
+
+    public String toString(){
+        return "Owner: " + owner + "Model: " + model;
+    }
 }

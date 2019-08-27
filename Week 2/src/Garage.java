@@ -13,15 +13,30 @@ public class Garage {
         this.location = location;
         this.doorColour = doorColour;
     }
+
     public static void main(String [] args){
         garage = new ArrayList<>();
         Car myCar = new Car(1500, "red", "car", "Mclaren", "Raj");
         Motocycle myCyle = new Motocycle(1000, "blue", "motorcycle", "ducati", "Raj");
+        Car myCar2 = new Car(5000, "red", "car", "Ferrari", "Raj");
+        Motocycle myCyle2 = new Motocycle(2000, "blue", "motorcycle", "Lambo", "Raj");
         garage.add(myCar);
         garage.add(myCyle);
+        garage.add(myCar2);
+        garage.add(myCyle2);
         Garage myGarage = new Garage("Raj", garage, "Glasgow", "Red" );
+        for (Vehicle v: myGarage.getGarage()){
+            if(v instanceof Car) {
+                System.out.println("It worked");
+            }else{
+                System.out.println("fml");
+            }
 
-    }
+            }
+        }
+
+
+
 
     public String getOwner() {
         return owner;
@@ -40,6 +55,6 @@ public class Garage {
     }
 
 
+}
 
-    }
 

@@ -1,3 +1,5 @@
+package src;
+
 public class BlackJack {
     public static void main(String[] args){
         System.out.println(blackJack(10,21));

@@ -21,4 +21,8 @@ public class Vehicle {
     public double getEngineSize() {
         return engineSize;
     }
+
+    public String toString(){
+        return "Engine Size: " + engineSize + "Type: " + type + "Colour: " + colour;
+    }
 }

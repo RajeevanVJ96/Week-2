@@ -4,8 +4,7 @@
     <list default="true" id="502f1948-2e7c-4de9-a3b4-31e7efce730e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week 2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 2/META-INF/Week 2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/Calculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Taxes">
+  <component name="RunManager" selected="Application.Example">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Week 2" />
@@ -69,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Goldy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Goldy" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,19 +90,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Goldy" />
       <item itemvalue="Application.GoldyChallenge" />
       <item itemvalue="Application.BinaryConversion" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Taxes" />
+      <item itemvalue="Application.Example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.Taxes" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.BinaryConversion" />
         <item itemvalue="Application.GoldyChallenge" />
-        <item itemvalue="Application.Goldy" />
       </list>
     </recent_temporary>
   </component>

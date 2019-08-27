@@ -1,5 +1,3 @@
-#Idea files
-.idea/
-
-#class files 
-*.class
+.idea
+target
+*.iml
